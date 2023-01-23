@@ -18,5 +18,6 @@ public class Tweets {
     @Column(length = 20, nullable = false)
     private String username;
     
+    @Column(nullable = false)
     private String text;
 }
